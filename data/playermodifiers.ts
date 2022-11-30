@@ -87,7 +87,7 @@ module CityGame
       [
         {
           targets: ["click"],
-          addedProfit: 0.2
+          addedProfit: 100.00
         }
       ]
     }
@@ -101,7 +101,7 @@ module CityGame
       [
         {
           type: "clicks",
-          value: 200
+          value: 100000
         }
       ],
       effects:
@@ -122,18 +122,18 @@ module CityGame
       [
         {
           type: "clicks",
-          value: 400
+          value: 100000
         },
         {
           type: "money",
-          value: 250
+          value: 100000
         }
       ],
       effects:
       [
         {
           targets: ["click"],
-          multiplier: 1.2
+          multiplier: 10.5
         }
       ]
     }
