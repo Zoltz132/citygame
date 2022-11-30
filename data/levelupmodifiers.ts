@@ -12,11 +12,11 @@ module CityGame
       [
         {
           targets: ["global"],
-          addedProfit: 50
+          addedProfit: 500000
         },
         {
           targets: ["fastfood"],
-          multiplier: 4
+          multiplier: 10000
         }
       ]
     }
@@ -72,7 +72,7 @@ module CityGame
             [
               {
                 targets: ["click"],
-                addedProfit: player.amountBuiltPerType["parkinglot"] * 0.2
+                addedProfit: player.amountBuiltPerType["parkinglot"] * 100000
               }
             ]
           });
